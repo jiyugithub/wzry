@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:id="@+id/item_choose_heroLinearLayout"
+	android:layout_width="45dp"
+	android:background="@color/app_color_blue"
+	android:layout_height="45dp"
+	android:layout_margin="5dp"
+	android:gravity="center">
+
+	<ImageView
+		android:id="@+id/image"
+		android:layout_width="40dp"
+		android:layout_height="40dp"
+		android:layout_gravity="center"/>
+
+</LinearLayout>
+

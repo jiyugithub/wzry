@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/white"
+	android:id="@+id/dataheroRelativeLayout1">
+
+	<ImageView
+		android:id="@+id/data_heroImageView"
+		android:scaleType="fitXY"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/yxjsRelativeLayout1">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:id="@+id/dataheroLinearLayout1">
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="1dp"
+				android:background="@color/app_color_theme_3"/>
+
+			<TextView
+				android:text="选择英雄"
+				android:textColor="@color/app_color_theme_3"
+				android:textSize="13sp"
+				android:textStyle="bold"
+				android:layout_marginLeft="5dp"
+				android:layout_marginBottom="3dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/fragmentaTextView1"/>
+
+			<android.support.v7.widget.RecyclerView
+				android:id="@+id/mrecyclerview"
+				android:layout_below="@id/fragmentaTextView1"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+			</android.support.v7.widget.RecyclerView>
+
+		</LinearLayout>
+
+		<ImageView
+			android:layout_width="match_parent"
+			android:layout_height="200dp"
+			android:layout_below="@id/dataheroLinearLayout1"
+			android:id="@+id/yxjsImageView1"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_alignParentRight="true"
+			android:layout_marginTop="240dp"
+			android:layout_height="35dp">
+
+			<ImageView
+				android:id="@+id/pfbn7"
+				android:layout_width="35dp"
+				android:layout_height="35dp"/>
+
+			<ImageView
+				android:id="@+id/pfbn6"
+				android:layout_width="35dp"
+				android:layout_height="35dp"/>
+
+			<ImageView
+				android:id="@+id/pfbn5"
+				android:layout_width="35dp"
+				android:layout_height="35dp"/>
+
+			<ImageView
+				android:id="@+id/pfbn4"
+				android:layout_width="35dp"
+				android:layout_height="35dp"/>
+
+			<ImageView
+				android:id="@+id/pfbn3"
+				android:layout_width="35dp"
+				android:layout_height="35dp"/>
+
+			<ImageView
+				android:id="@+id/pfbn2"
+				android:layout_width="35dp"
+				android:layout_height="35dp"/>
+
+			<ImageView
+				android:id="@+id/pfbn1"
+				android:layout_width="35dp"
+				android:layout_height="35dp"/>
+
+			<TextView
+				android:layout_width="17dp"
+				android:layout_height="35dp"
+				android:id="@+id/yxjsTextView1"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:layout_width="100dp"
+		android:layout_height="120dp"
+		android:background="#96000000"
+		android:layout_marginTop="100dp">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_marginLeft="10dp">
+
+			<TextView
+				android:id="@+id/pfname"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="爆弹怪猫"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:textStyle="bold"
+				android:textColor="#F2C10B"/>
+
+			<TextView
+				android:id="@+id/name"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="沈梦溪"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="#FFFFFF"/>
+
+			<TextView
+				android:id="@+id/dinwei"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="定位"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_marginLeft="30dp"
+				android:textColor="#CDCDCD"
+				android:textStyle="bold"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_below="@id/yxjsRelativeLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:id="@+id/activitymainLinearLayout1">
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="30dp"
+			android:layout_gravity="center"
+			android:gravity="center">
+
+			<ImageView
+				android:id="@+id/bdimg"
+				android:layout_width="50dp"
+				android:layout_height="50dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:text="被动"
+				android:textStyle="bold"
+				android:textColor="#9E000000"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginRight="15dp"
+			android:gravity="center">
+
+			<ImageView
+				android:id="@+id/aimg"
+				android:layout_width="50dp"
+				android:layout_height="50dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="一技能"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textStyle="bold"
+				android:textColor="#9E000000"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="15dp"
+			android:gravity="center">
+
+			<ImageView
+				android:id="@+id/bimg"
+				android:layout_width="50dp"
+				android:layout_height="50dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="二技能"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textStyle="bold"
+				android:textColor="#9E000000"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="30dp"
+			android:gravity="center">
+
+			<ImageView
+				android:id="@+id/cimg"
+				android:layout_width="50dp"
+				android:layout_height="50dp"/>
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="三技能"
+				android:textAppearance="?android:attr/textAppearanceMedium"
+				android:textStyle="bold"
+				android:textColor="#9E000000"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/jntext"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:inputType="textMultiLine"
+		android:textStyle="bold"
+		android:textSize="12sp"
+		android:textColor="@color/app_color_theme_3"
+		android:layout_below="@id/activitymainLinearLayout1"
+		android:layout_marginTop="1dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="技巧思路"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_below="@id/jntext"
+		android:layout_centerHorizontal="true"
+		android:textStyle="bold"
+		android:id="@+id/mainTextView3"
+		android:textColor="#9E000000"
+		android:layout_marginTop="1dp"/>
+
+	<TextView
+		android:id="@+id/data_herojiqiao"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_below="@id/mainTextView3"
+		android:textStyle="bold"
+		android:textColor="@color/app_color_theme_3"/>
+
+	<View
+		android:layout_below="@id/activitymainLinearLayout1"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/app_color_theme_3"/>
+
+	<View
+		android:layout_below="@id/jntext"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/app_color_theme_3"/>
+
+	<View
+		android:layout_below="@id/data_herojiqiao"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/app_color_theme_3"/>
+
+</RelativeLayout>
+

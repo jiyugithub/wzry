@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@color/app_color_blue"
+	android:orientation="vertical">
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="@color/app_color_theme_3"/>
+	
+	<TextView
+		android:text="选择英雄"
+		android:textColor="@color/app_color_theme_3"
+		android:textSize="13sp"
+		android:textStyle="bold"
+		android:layout_marginLeft="5dp"
+		android:layout_marginBottom="3dp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/fragmentaTextView1"/>
+
+	<android.support.v7.widget.RecyclerView
+		android:id="@+id/mrecyclerview"
+		android:layout_below="@id/fragmentaTextView1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+
+	</android.support.v7.widget.RecyclerView>
+	<include layout="@layout/data_hero"></include>
+</LinearLayout>
+
